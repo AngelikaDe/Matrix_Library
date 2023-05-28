@@ -2,13 +2,13 @@
 Library for processing numerical matrices in the C programming language.
 
 ## Matrix structure in C language:
-    ``` typedef struct matrix_struct {
+``` 
+typedef struct matrix_struct {
     double** matrix;
     int rows;
     int columns;
-} matrix_t; 
+} matrix_t;
 ```
-
 ## Matrix operations
 * Creating matrices (create_matrix)
 * Matrix comparison (eq_matrix)
